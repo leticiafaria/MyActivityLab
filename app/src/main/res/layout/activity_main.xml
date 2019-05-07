@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onCreate: " />
+
+    <TextView android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onStart: " />
+
+    <TextView android:id="@+id/resume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onResume: " />
+
+    <TextView android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onRestart: " />
+
+    <Button android:id="@+id/buttonLaunchActivityTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start ActivityTwo" />
+
+</LinearLayout>
